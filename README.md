@@ -28,18 +28,20 @@ docker run -d \
 
 ## Parámetros
 
-Las imágenes de contenedor se configuran utilizando parámetros pasados en tiempo de ejecución (como los anteriores). 
-Estos parámetros están separados por dos puntos e indican ``<external>: <internal>`` respectivamente. 
-
 | Parámetro | Función |
 | ------ | ------ |
 | ``--net=host`` | Habilitamos el uso de la red ``host`` en vez de una virtual para docker |
-
 
 ## Gestión Web
 
 Accedemos con un navegador web a la ``ip_del_host:2112/status`` para usar la interfaz web
 
 **NOTA**: Recuerda que el puerto `Unicast` es: **2112**
+
+## Ejemplo
+
+**Enlace tipo Multicast**: rtp://@239.0.5.185:8208 
+
+**Enlace tipo Unicast**: http://192.168.1.90:2112/rtp/239.0.5.185:8208
 
 > ... la culminación de un fin es el comienzo de una realidad.
