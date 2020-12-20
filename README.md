@@ -11,7 +11,7 @@ version: "2"
 services:
   udpxy:
     image: lordpedal/udpxy
-    container_name: Udpxy
+    container_name: UDPXY
     network_mode: host
     restart: always
 ```
@@ -20,7 +20,7 @@ services:
 
 ```
 docker run -d \
-        --name Udpxy \
+        --name UDPXY \
         --network host \
         --restart always \
         lordpedal/udpxy
