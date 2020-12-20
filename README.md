@@ -40,8 +40,8 @@ Accedemos con un navegador web a la ``ip_del_host:2112/status`` para usar la int
 
 ## Ejemplo
 
-**Enlace tipo Multicast**: rtp://@239.0.5.185:8208 
-
-**Enlace tipo Unicast**: http://192.168.1.90:2112/rtp/239.0.5.185:8208
+| Multicast | Unicast |
+| ------ | ------ |
+| `rtp://@239.0.5.185:8208` | `http://192.168.1.90:2112/rtp/239.0.5.185:8208` |
 
 > ... la culminación de un fin es el comienzo de una realidad.
