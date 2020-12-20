@@ -40,4 +40,6 @@ Estos parámetros están separados por dos puntos e indican ``<external>: <inter
 
 Accedemos con un navegador web a la ``ip_del_host:2112/status`` para usar la interfaz web
 
+**NOTA**: Recuerda que el puerto `Unicast` es: **2112**
+
 > ... la culminación de un fin es el comienzo de una realidad.
