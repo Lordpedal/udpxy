@@ -30,7 +30,7 @@ docker run -d \
 
 | Parámetro | Función |
 | ------ | ------ |
-| ``--net=host`` | Habilitamos el uso de la red ``host`` en vez de una virtual para docker |
+| ``--net=host`` | Habilitamos uso de la red ``host`` en vez de una virtual para docker |
 
 ## Gestión Web
 
